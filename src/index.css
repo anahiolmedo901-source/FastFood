@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #e74c3c;
+  --primary-dark: #c0392b;
+  --bg: #f8f9fa;
+  --card-bg: #fff;
+  --text: #333;
+  --text-light: #777;
+  --border: #ddd;
+  --success: #27ae60;
+  --danger: #e74c3c;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
